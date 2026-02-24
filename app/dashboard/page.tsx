@@ -1,4 +1,3 @@
-import { prisma } from '@/lib/pramra'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Users, TrendingUp, Clock } from 'lucide-react'
