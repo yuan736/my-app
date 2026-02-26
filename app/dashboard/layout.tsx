@@ -1,3 +1,4 @@
+
 import { ReactNode } from 'react'
 import Link from 'next/link'
 import { Home, Users, MessageSquare, Bell, BarChart3 } from 'lucide-react'
@@ -13,9 +14,9 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
           <NavItem href="/dashboard/phrases" icon={<MessageSquare className="h-4 w-4" />}>话术库</NavItem>
           <NavItem href="/dashboard/reminders" icon={<Bell className="h-4 w-4" />}>今日提醒</NavItem>
         </nav>
-        <div className="pt-4 border-t text-sm text-gray-500">
-          👤 相亲对象
-        </div>
+        {/* <div className="pt-4 border-t text-sm text-gray-500">
+          👤 
+        </div> */}
       </aside>
       <main className="flex-1 flex flex-col overflow-hidden">
         <header className="h-16 bg-white border-b border-gray-200 flex items-center px-6">
